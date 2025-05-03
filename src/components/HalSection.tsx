@@ -1,4 +1,6 @@
 
+import { Avatar } from "@/components/ui/avatar";
+
 const HalSection = () => {
   return (
     <section id="hal" className="hal-section">
@@ -27,6 +29,17 @@ const HalSection = () => {
                 "What's the average return on investment 12 months after implementing a new space business line?"
               </div>
             </div>
+          </div>
+          
+          <div className="mt-12 flex flex-col items-center">
+            <Avatar className="w-24 h-24 mb-4">
+              <img 
+                src="/lovable-uploads/317bcf42-f17a-42b2-be88-c2334b9bef80.png" 
+                alt="HAL 2001" 
+                className="w-full h-full object-contain"
+              />
+            </Avatar>
+            <p className="text-xl font-medium">HAL 2001 Icon</p>
           </div>
         </div>
       </div>
