@@ -31,7 +31,7 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <section id="how-it-works" className="section" style={{ backgroundColor: "#FEC6A1" }}>
+    <section id="how-it-works" className="section bg-light">
       <div className="container-custom">
         <div className="section-header">
           <h2 className="text-secondary">How Discovery One Works</h2>
