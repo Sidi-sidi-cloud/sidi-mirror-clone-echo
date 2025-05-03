@@ -3,9 +3,9 @@ import { Card, CardContent } from "./ui/card";
 
 const features = [
   {
-    title: "Accessibility",
-    description: "No space experience required. Our guided journey takes you step by step into the most promising market of the future.",
-    image: "/lovable-uploads/4148ee6c-e552-41c6-8e07-aedb49457fab.png"
+    title: "Efficiency",
+    description: "Concrete results thanks to HAL 2001's artificial intelligence, which optimizes every phase of the journey, reducing time and costs.",
+    image: "/lovable-uploads/84eb81b2-5311-4475-86ac-f1d5684484ec.png"
   },
   {
     title: "Strategic Transformation",
@@ -13,9 +13,9 @@ const features = [
     image: "/lovable-uploads/dc80da50-41df-462a-b56a-17f758d4b2a5.png"
   },
   {
-    title: "Efficiency",
-    description: "Concrete results thanks to HAL 2001's artificial intelligence, which optimizes every phase of the journey, reducing time and costs.",
-    image: "/lovable-uploads/84eb81b2-5311-4475-86ac-f1d5684484ec.png"
+    title: "Accessibility",
+    description: "No space experience required. Our guided journey takes you step by step into the most promising market of the future.",
+    image: "/lovable-uploads/4148ee6c-e552-41c6-8e07-aedb49457fab.png"
   }
 ];
 
