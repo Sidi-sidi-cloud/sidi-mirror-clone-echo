@@ -3,14 +3,14 @@ import { Card, CardContent } from "./ui/card";
 
 const features = [
   {
-    title: "Strategic Transformation",
-    description: "We convert your existing skills into strategic assets for the space market, creating dual-use business models with both terrestrial and space value.",
-    image: "/lovable-uploads/dc80da50-41df-462a-b56a-17f758d4b2a5.png"
-  },
-  {
     title: "Accessibility",
     description: "No space experience required. Our guided journey takes you step by step into the most promising market of the future.",
     image: "/lovable-uploads/4148ee6c-e552-41c6-8e07-aedb49457fab.png"
+  },
+  {
+    title: "Strategic Transformation",
+    description: "We convert your existing skills into strategic assets for the space market, creating dual-use business models with both terrestrial and space value.",
+    image: "/lovable-uploads/dc80da50-41df-462a-b56a-17f758d4b2a5.png"
   },
   {
     title: "Efficiency",

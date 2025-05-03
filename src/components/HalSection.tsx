@@ -4,14 +4,6 @@ const HalSection = () => {
     <section id="hal" className="hal-section">
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="text-center lg:text-left">
-            <img 
-              src="https://images.unsplash.com/photo-1677442135136-760c813260b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" 
-              alt="HAL 2001 Interface"
-              className="rounded-xl shadow-2xl max-w-full mx-auto"
-            />
-          </div>
-          
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">HAL 2001: Your AI Assistant for Space Conquest</h2>
             <p className="text-lg opacity-90 mb-8">HAL 2001 is not a simple assistant, but a strategic coordinator that connects your company with our team, orchestrating specialized AI agents and ensuring efficient communication throughout the entire process.</p>
@@ -37,6 +29,14 @@ const HalSection = () => {
                 </div>
               </div>
             </div>
+          </div>
+          
+          <div className="text-center lg:text-left">
+            <img 
+              src="https://images.unsplash.com/photo-1677442135136-760c813260b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" 
+              alt="HAL 2001 Interface"
+              className="rounded-xl shadow-2xl max-w-full mx-auto"
+            />
           </div>
         </div>
       </div>
