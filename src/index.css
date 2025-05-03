@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,34 +7,28 @@
 
 @layer base {
   :root {
-    --background: 0 0% 0%;
-    --foreground: 0 0% 100%;
-
-    --card: 0 0% 3%;
-    --card-foreground: 0 0% 100%;
-
-    --popover: 0 0% 3%;
-    --popover-foreground: 0 0% 100%;
-
-    --primary: 214 100% 50%;
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    
+    /* Nuovi colori come definiti nell'HTML */
+    --primary: 17 86% 51%;
     --primary-foreground: 0 0% 100%;
-
-    --secondary: 0 0% 13%;
+    
+    --secondary: 215 52% 20%;
     --secondary-foreground: 0 0% 100%;
-
-    --muted: 0 0% 13%;
-    --muted-foreground: 0 0% 60%;
-
-    --accent: 214 100% 50%;
+    
+    --light: 228 20% 96%;
+    --dark: 237 40% 15%;
+    
+    --accent: 204 70% 53%;
     --accent-foreground: 0 0% 100%;
+    
+    --success: 145 68% 49%;
+    --success-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
-
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 214 100% 50%;
-
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 17 86% 51%;
     --radius: 0.5rem;
   }
 
@@ -43,7 +37,7 @@
   }
 
   body {
-    @apply bg-sidi-black text-foreground font-sans;
+    @apply bg-light text-dark font-segoe;
   }
 
   html {
@@ -53,38 +47,170 @@
 
 @layer components {
   .container-custom {
-    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-screen-xl;
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
   }
   
   .btn-primary {
-    @apply bg-sidi-blue text-white px-6 py-3 rounded-full hover:bg-blue-600 transition-all duration-300;
+    @apply bg-primary text-white px-6 py-3 rounded-full hover:bg-primary/90 font-bold transition-all duration-300;
   }
   
   .btn-outline {
-    @apply border border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-sidi-black transition-all duration-300;
+    @apply border-2 border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-primary transition-all duration-300 font-bold;
   }
 
-  .glow {
-    box-shadow: 0 0 15px 2px theme('colors.sidi-blue-glow');
+  .btn-secondary {
+    @apply bg-transparent border-2 border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-primary transition-all duration-300 ml-4 font-bold;
   }
 
   .section {
     @apply py-16 md:py-24;
   }
+
+  .section-header {
+    @apply text-center mb-16;
+  }
+  
+  .section-header h2 {
+    @apply text-3xl md:text-4xl font-bold mb-4;
+  }
+  
+  .section-header p {
+    @apply text-gray-600 text-lg max-w-3xl mx-auto;
+  }
 }
 
+/* Hero Section */
+.hero {
+  @apply relative min-h-screen flex items-center bg-cover bg-center text-white;
+  background-image: linear-gradient(rgba(26, 26, 46, 0.7), rgba(26, 26, 46, 0.9)), url("https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+}
+
+.hero-content {
+  @apply max-w-4xl mx-auto text-center;
+}
+
+.hero h1 {
+  @apply text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight;
+}
+
+.hero h2 {
+  @apply text-xl sm:text-2xl md:text-3xl mb-6 font-normal opacity-90;
+}
+
+.hero p {
+  @apply text-lg sm:text-xl mb-8 opacity-90;
+}
+
+.video-container {
+  @apply mt-8 relative overflow-hidden rounded-xl shadow-xl;
+}
+
+.video-placeholder {
+  @apply w-full h-0 pb-[56.25%] relative bg-white/10 flex items-center justify-center cursor-pointer bg-cover bg-center;
+  background-image: url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80");
+}
+
+.video-placeholder img {
+  @apply absolute w-20 h-20 opacity-80 transition-all duration-300;
+}
+
+.video-placeholder:hover img {
+  @apply transform scale-110 opacity-100;
+}
+
+/* Feature styles */
 .feature-card {
-  backdrop-filter: blur(10px);
-  background: rgba(10, 10, 10, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  @apply hover:-translate-y-2 transition-all duration-300;
 }
 
-.hero-gradient {
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+/* Process timeline */
+.process-container {
+  @apply relative mt-16;
 }
 
-.text-balance {
-  text-wrap: balance;
+.process-container::before {
+  content: '';
+  @apply absolute top-[100px] left-[10%] right-[10%] h-1 bg-primary z-0;
+}
+
+.step {
+  @apply relative z-10 text-center;
+}
+
+.step-number {
+  @apply w-20 h-20 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6 bg-cover bg-center shadow-lg;
+}
+
+/* Accordion styles */
+.accordion-item {
+  @apply bg-white rounded-lg mb-4 shadow-sm overflow-hidden;
+}
+
+.accordion-header {
+  @apply p-4 cursor-pointer flex justify-between items-center font-bold text-secondary;
+}
+
+.accordion-header:hover {
+  @apply bg-gray-50;
+}
+
+.accordion-content {
+  @apply px-4 max-h-0 overflow-hidden transition-all duration-300;
+}
+
+.accordion-item.active .accordion-content {
+  @apply max-h-[500px] pb-4;
+}
+
+/* Chat widget */
+.chat-widget {
+  @apply fixed bottom-8 right-8 z-50;
+}
+
+.chat-button {
+  @apply w-14 h-14 bg-primary rounded-full flex items-center justify-center cursor-pointer shadow-lg transition-all duration-300;
+}
+
+.chat-button:hover {
+  @apply transform scale-110;
+}
+
+.chat-tooltip {
+  @apply absolute bottom-16 right-0 bg-white p-4 rounded-lg shadow-lg w-64 opacity-0 translate-y-5 transition-all duration-300 pointer-events-none;
+}
+
+.chat-button:hover + .chat-tooltip {
+  @apply opacity-100 translate-y-0;
+}
+
+/* HAL section */
+.hal-section {
+  @apply py-24 bg-gradient-to-r from-dark to-secondary text-white;
+}
+
+/* Social links */
+.social-links {
+  @apply flex gap-4;
+}
+
+.social-link {
+  @apply w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-all duration-300;
+}
+
+.social-link:hover {
+  @apply bg-primary transform -translate-y-1;
+}
+
+.partner-logos {
+  @apply flex flex-wrap justify-center items-center gap-8 mt-8;
+}
+
+.partner-logo {
+  @apply h-16 grayscale opacity-70 transition-all duration-300;
+}
+
+.partner-logo:hover {
+  @apply grayscale-0 opacity-100;
 }
 
 #root {
