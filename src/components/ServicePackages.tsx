@@ -1,6 +1,7 @@
 
 import { Card } from "./ui/card";
 import { CheckIcon } from "lucide-react";
+import { Avatar } from "./ui/avatar";
 
 const services = [
   {
@@ -91,11 +92,13 @@ const ServicePackages = () => {
           ))}
           
           <Card className="flex flex-col items-center justify-center p-8 bg-light border-0">
-            <img 
-              src="https://images.unsplash.com/photo-1673186724144-0947f2f63af7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-              alt="HAL 2001 Icon" 
-              className="w-20 h-20 rounded-full object-cover mb-6" 
-            />
+            <Avatar className="w-20 h-20 mb-6">
+              <img 
+                src="/lovable-uploads/317bcf42-f17a-42b2-be88-c2334b9bef80.png" 
+                alt="HAL 2001" 
+                className="w-full h-full object-contain" 
+              />
+            </Avatar>
             <h3 className="text-xl font-semibold mb-4 text-center">Not sure where to start?</h3>
             <p className="text-center text-gray-600 mb-6">Talk to HAL 2001 for a personalized recommendation</p>
             <a href="#" className="btn-primary">Chat with HAL 2001</a>
