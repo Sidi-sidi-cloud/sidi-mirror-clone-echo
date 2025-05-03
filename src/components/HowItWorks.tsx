@@ -38,30 +38,42 @@ const HowItWorks = () => {
           <p>A structured 5-step journey designed to transform your expertise into space opportunities</p>
         </div>
         
-        <div className="process-container relative pt-12 mt-8">
-          {/* Steps content */}
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 relative">
-            {steps.map((step, index) => (
-              <div key={step.number} className="step flex flex-col items-center">
-                {/* Only show the number in an orange disc */}
-                <div className="mb-8">
-                  <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-white font-bold text-2xl shadow-md">
-                    {step.number}
+        <div className="flex justify-center mt-24 mb-16">
+          <div className="relative">
+            {/* Horizontal timeline with steps and connecting arrows */}
+            <div className="flex items-center">
+              {steps.map((step, index) => (
+                <div key={step.number} className="flex items-center">
+                  {/* Step with number */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-20 h-20 rounded-full bg-primary flex items-center justify-center text-white font-bold text-3xl shadow-md z-10">
+                      {step.number}
+                    </div>
                   </div>
+                  
+                  {/* Arrow connector (except after the last item) */}
+                  {index < steps.length - 1 && (
+                    <div className="flex mx-4">
+                      <ArrowRight className="w-12 h-12 text-primary" />
+                    </div>
+                  )}
                 </div>
-                
-                {/* Step content */}
-                <h3 className="text-lg font-semibold text-secondary mb-2 text-center">{step.title}</h3>
-                <p className="text-gray-600 text-sm text-center">{step.description}</p>
-                
-                {/* Larger and more central arrows (except after the last item) */}
-                {index < steps.length - 1 && (
-                  <div className="hidden md:flex absolute top-[32px] left-[calc(50%+68px)] transform -translate-x-1/2">
-                    <ArrowRight className="w-10 h-10 text-primary" />
-                  </div>
-                )}
-              </div>
-            ))}
+              ))}
+            </div>
+            
+            {/* Titles and descriptions positioned below the timeline */}
+            <div className="flex mt-8">
+              {steps.map((step, index) => (
+                <div 
+                  key={`text-${step.number}`} 
+                  className="flex flex-col items-center"
+                  style={{ width: index < steps.length - 1 ? 'calc(20% + 64px)' : '20%' }}
+                >
+                  <h3 className="text-xl font-semibold text-secondary mb-2 text-center">{step.title}</h3>
+                  <p className="text-gray-600 text-sm text-center">{step.description}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
