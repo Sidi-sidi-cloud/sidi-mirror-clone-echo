@@ -5,17 +5,17 @@ const features = [
   {
     title: "Accessibility",
     description: "No space experience required. Our guided journey takes you step by step into the most promising market of the future.",
-    image: "https://images.unsplash.com/photo-1596388497930-eda152194426?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+    image: "/lovable-uploads/4148ee6c-e552-41c6-8e07-aedb49457fab.png"
   },
   {
     title: "Strategic Transformation",
     description: "We convert your existing skills into strategic assets for the space market, creating dual-use business models with both terrestrial and space value.",
-    image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    image: "/lovable-uploads/dc80da50-41df-462a-b56a-17f758d4b2a5.png"
   },
   {
     title: "Efficiency",
     description: "Concrete results thanks to HAL 2001's artificial intelligence, which optimizes every phase of the journey, reducing time and costs.",
-    image: "https://images.unsplash.com/photo-1581089778245-3ce67677f718?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    image: "/lovable-uploads/84eb81b2-5311-4475-86ac-f1d5684484ec.png"
   }
 ];
 
