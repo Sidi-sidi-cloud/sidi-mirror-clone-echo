@@ -41,22 +41,14 @@ const HowItWorks = () => {
         <div className="mt-24 mb-16">
           <div className="max-w-6xl mx-auto">
             {/* Timeline visualization */}
-            <div className="grid grid-cols-5 gap-4">
+            <div className="relative grid grid-cols-5 gap-4">
               {steps.map((step, index) => (
                 <div key={step.number} className="flex flex-col items-center">
-                  {/* Top row: Discs with numbers and connecting arrows */}
+                  {/* Top row: Discs with numbers */}
                   <div className="flex items-center mb-8">
-                    {/* Numbered disc */}
                     <div className="w-24 h-24 rounded-full bg-primary flex items-center justify-center text-white font-bold text-4xl">
                       {step.number}
                     </div>
-                    
-                    {/* Arrow connector (except after the last item) */}
-                    {index < steps.length - 1 && (
-                      <div className="absolute" style={{ left: `calc(${(index + 1) * 20}% - 8px)` }}>
-                        <ArrowRight className="w-16 h-16 text-primary" />
-                      </div>
-                    )}
                   </div>
                   
                   {/* Bottom row: Titles and descriptions */}
@@ -64,6 +56,17 @@ const HowItWorks = () => {
                     <h3 className="text-xl font-semibold text-secondary mb-3 text-center">{step.title}</h3>
                     <p className="text-gray-600 text-sm text-center">{step.description}</p>
                   </div>
+                </div>
+              ))}
+
+              {/* Separate arrows layer that overlays on top of the circles */}
+              {[0, 1, 2, 3].map((index) => (
+                <div 
+                  key={`arrow-${index}`} 
+                  className="absolute top-12 flex items-center justify-center"
+                  style={{ left: `calc(${index * 20 + 16.5}%)`, width: "7%" }}
+                >
+                  <ArrowRight className="w-10 h-10 text-primary" />
                 </div>
               ))}
             </div>
