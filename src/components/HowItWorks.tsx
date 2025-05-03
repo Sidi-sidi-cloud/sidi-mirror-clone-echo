@@ -31,7 +31,7 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <section id="how-it-works" className="section bg-light">
+    <section id="how-it-works" className="section bg-soft-orange">
       <div className="container-custom">
         <div className="section-header">
           <h2 className="text-secondary">How Discovery One Works</h2>

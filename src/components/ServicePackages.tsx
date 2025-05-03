@@ -73,7 +73,7 @@ const services = [
 
 const ServicePackages = () => {
   return (
-    <section id="services" className="section bg-white">
+    <section id="services" className="section bg-soft-orange">
       <div className="container-custom">
         <div className="section-header">
           <h2 className="text-secondary">Our Service Journey</h2>

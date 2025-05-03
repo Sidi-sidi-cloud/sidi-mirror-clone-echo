@@ -36,7 +36,7 @@ const stories = [
 
 const SuccessStories = () => {
   return (
-    <section id="success-stories" className="section bg-light">
+    <section id="success-stories" className="section bg-white">
       <div className="container-custom">
         <div className="section-header">
           <h2 className="text-secondary">Success Stories</h2>
