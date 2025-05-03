@@ -14,19 +14,31 @@ const HalSection = () => {
             
             <div className="mb-4">
               <div className="bg-white/20 p-4 rounded-xl max-w-[80%] mx-auto">
-                "How can I monetize my company's automation systems expertise in a space context?"
+                "After our preliminary analysis, I see our production line automation technology has potential for space habitats. Which strategic partners should we contact first to validate this application?"
               </div>
             </div>
             
             <div className="mb-4 flex justify-center">
               <div className="bg-primary p-4 rounded-xl max-w-[80%]">
-                "What concrete opportunities does a textile company have in the space tourism market?"
+                "We've reviewed the SRL report and we're interested in composite materials for structural components. What specific certifications does ESA require for internal habitat module walls?"
               </div>
             </div>
             
             <div className="mb-4 flex justify-center">
               <div className="bg-white/20 p-4 rounded-xl max-w-[80%]">
-                "What's the average return on investment 12 months after implementing a new space business line?"
+                "Looking at phase two data, our purification systems seem more promising than our filtration technology. What metrics should we use to quantify our competitive advantage in this space market segment?"
+              </div>
+            </div>
+            
+            <div className="mb-4">
+              <div className="bg-white/20 p-4 rounded-xl max-w-[80%] mx-auto">
+                "Our killer idea was just approved by the board. Before proceeding, what are the most common mistakes companies make in strategic planning for textile applications in space habitats?"
+              </div>
+            </div>
+            
+            <div className="mb-4 flex justify-center">
+              <div className="bg-primary p-4 rounded-xl max-w-[80%]">
+                "The business opportunity in environmental monitoring from space looks promising, but our CFO is concerned about investment recovery time. Can you show us a comparable case in Earth observation with quarterly ROI details for the first 24 months?"
               </div>
             </div>
           </div>
