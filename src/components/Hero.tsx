@@ -1,9 +1,6 @@
-
 import { Button } from "./ui/button";
-
 const Hero = () => {
-  return (
-    <section className="hero">
+  return <section className="hero">
       <div className="container-custom">
         <div className="hero-content">
           <div className="hero-logo mb-8">
@@ -20,14 +17,10 @@ const Hero = () => {
           </div>
           
           <div className="video-container">
-            <div className="video-placeholder">
-              <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play Button" />
-            </div>
+            
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
