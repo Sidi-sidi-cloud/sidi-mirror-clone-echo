@@ -5,7 +5,7 @@ const stories = [
   {
     title: "From Traditional Textiles to Space Materials",
     description: "A textile company in crisis developed innovative materials for the space sector, creating a new business line for extreme sports with a 45% increase in turnover over 3 years.",
-    image: "https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1400&q=80",
+    image: "public/lovable-uploads/80ad6582-9afb-4e69-a07f-96590e9f695b.png", // First uploaded image (metallic fabric material)
     client: {
       name: "Marco Rossi",
       position: "CEO, TextileTech",
@@ -15,7 +15,7 @@ const stories = [
   {
     title: "Computer Vision Software for Satellites",
     description: "A software startup adapted its computer vision algorithms for Earth monitoring from space, securing €2 million in funding and partnerships with space agencies.",
-    image: "https://images.unsplash.com/photo-1581092921461-7031e4f701b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: "public/lovable-uploads/59cd581a-09fc-4fea-8dbb-6f82b7ea354a.png", // Second uploaded image (satellite view of fields)
     client: {
       name: "Laura Bianchi",
       position: "CTO, SpaceVision",
@@ -25,7 +25,7 @@ const stories = [
   {
     title: "Cultivation Systems for Extreme Environments",
     description: "An agricultural company developed vertical farming technologies for space habitats, creating a new market on Earth for highly efficient, low water consumption urban agriculture.",
-    image: "https://images.unsplash.com/photo-1589923188900-85dae523342b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: "public/lovable-uploads/66309eb3-ff9f-4820-8991-9077d1818b3c.png", // Third uploaded image (vertical farming with plants)
     client: {
       name: "Antonio Verdi",
       position: "Founder, GreenSpace",
