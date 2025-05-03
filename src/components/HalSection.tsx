@@ -13,7 +13,7 @@ const HalSection = () => {
             <h4 className="text-xl font-semibold mb-4">HAL 2001 is waiting for your specific questions:</h4>
             
             <div className="mb-4">
-              <div className="bg-white/20 p-4 rounded-xl max-w-[80%] mx-auto">
+              <div className="bg-gray-600/70 p-4 rounded-xl max-w-[80%] mx-auto text-white">
                 "After our preliminary analysis, I see our production line automation technology has potential for space habitats. Which strategic partners should we contact first to validate this application?"
               </div>
             </div>
@@ -25,19 +25,19 @@ const HalSection = () => {
             </div>
             
             <div className="mb-4 flex justify-center">
-              <div className="bg-white/20 p-4 rounded-xl max-w-[80%]">
+              <div className="bg-gray-600/70 p-4 rounded-xl max-w-[80%]">
                 "Looking at phase two data, our purification systems seem more promising than our filtration technology. What metrics should we use to quantify our competitive advantage in this space market segment?"
               </div>
             </div>
             
             <div className="mb-4">
-              <div className="bg-white/20 p-4 rounded-xl max-w-[80%] mx-auto">
+              <div className="bg-primary p-4 rounded-xl max-w-[80%] mx-auto">
                 "Our killer idea was just approved by the board. Before proceeding, what are the most common mistakes companies make in strategic planning for textile applications in space habitats?"
               </div>
             </div>
             
             <div className="mb-4 flex justify-center">
-              <div className="bg-primary p-4 rounded-xl max-w-[80%]">
+              <div className="bg-gray-600/70 p-4 rounded-xl max-w-[80%]">
                 "The business opportunity in environmental monitoring from space looks promising, but our CFO is concerned about investment recovery time. Can you show us a comparable case in Earth observation with quarterly ROI details for the first 24 months?"
               </div>
             </div>
