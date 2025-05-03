@@ -1,15 +1,9 @@
-
 const Credibility = () => {
-  return (
-    <section id="about" className="section bg-white">
+  return <section id="about" className="section bg-white">
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <img 
-              src="public/lovable-uploads/ca2b7457-fe7d-4a61-a392-a9ed6c077ec2.png" 
-              alt="Mars Planet Team" 
-              className="rounded-xl shadow-lg w-full"
-            />
+            <img alt="Mars Planet Team" className="rounded-xl shadow-lg w-full" src="/lovable-uploads/7654549b-b515-45db-bb28-ad29301ac702.jpg" />
           </div>
           
           <div>
@@ -20,8 +14,6 @@ const Credibility = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Credibility;
