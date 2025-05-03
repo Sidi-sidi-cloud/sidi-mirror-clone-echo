@@ -5,7 +5,7 @@ const stories = [
   {
     title: "From Traditional Textiles to Space Materials",
     description: "A textile company in crisis developed innovative materials for the space sector, creating a new business line for extreme sports with a 45% increase in turnover over 3 years.",
-    image: "public/lovable-uploads/80ad6582-9afb-4e69-a07f-96590e9f695b.png", // First uploaded image (metallic fabric material)
+    image: "public/lovable-uploads/fdb1f7a9-8acc-47fe-8db5-22ca16c9f4e3.png", // First uploaded image (metallic fabric material)
     client: {
       name: "Marco Rossi",
       position: "CEO, TextileTech",
@@ -15,7 +15,7 @@ const stories = [
   {
     title: "Computer Vision Software for Satellites",
     description: "A software startup adapted its computer vision algorithms for Earth monitoring from space, securing €2 million in funding and partnerships with space agencies.",
-    image: "public/lovable-uploads/59cd581a-09fc-4fea-8dbb-6f82b7ea354a.png", // Second uploaded image (satellite view of fields)
+    image: "public/lovable-uploads/73aec1dc-3086-4049-b46c-c432d5d72bc0.png", // Second uploaded image (satellite view of fields)
     client: {
       name: "Laura Bianchi",
       position: "CTO, SpaceVision",
@@ -25,7 +25,7 @@ const stories = [
   {
     title: "Cultivation Systems for Extreme Environments",
     description: "An agricultural company developed vertical farming technologies for space habitats, creating a new market on Earth for highly efficient, low water consumption urban agriculture.",
-    image: "public/lovable-uploads/66309eb3-ff9f-4820-8991-9077d1818b3c.png", // Third uploaded image (vertical farming with plants)
+    image: "public/lovable-uploads/9a130aea-4197-40af-a0e1-ae787cfa0226.png", // Third uploaded image (vertical farming with plants)
     client: {
       name: "Antonio Verdi",
       position: "Founder, GreenSpace",
