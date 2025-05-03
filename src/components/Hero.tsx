@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="container-custom">
         <div className="hero-content">
           <div className="hero-logo mb-8">
-            <img src="https://marsplanet.org/wp-content/uploads/2023/04/logo-mars-planet-nuovo.png" alt="Mars Planet Logo" className="h-16 mx-auto" />
+            <img alt="Mars Planet Logo" src="/lovable-uploads/0dd9fcae-ac71-4b75-b82d-3cc9c6c3ef6b.png" className="h-40 mx-auto object-scale-down" />
           </div>
           
           <h1>Discovery One</h1>
