@@ -6,7 +6,7 @@ const ChatWidget = () => {
   return (
     <div className="chat-widget">
       <div className="chat-button">
-        <Avatar className="w-12 h-12 border-2 border-white shadow-lg">
+        <Avatar className="w-16 h-16 border-2 border-white shadow-lg">
           <img 
             src="/lovable-uploads/317bcf42-f17a-42b2-be88-c2334b9bef80.png" 
             alt="HAL 2001" 

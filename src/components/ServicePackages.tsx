@@ -92,7 +92,7 @@ const ServicePackages = () => {
           ))}
           
           <Card className="flex flex-col items-center justify-center p-8 bg-light border-0">
-            <Avatar className="w-20 h-20 mb-6">
+            <Avatar className="w-32 h-32 mb-6">
               <img 
                 src="/lovable-uploads/317bcf42-f17a-42b2-be88-c2334b9bef80.png" 
                 alt="HAL 2001" 
