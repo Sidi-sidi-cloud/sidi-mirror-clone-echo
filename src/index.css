@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -25,6 +24,8 @@
     
     --success: 145 68% 49%;
     --success-foreground: 0 0% 100%;
+    
+    --soft-orange: 25 98% 81%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
@@ -75,7 +76,11 @@
   }
   
   .section-header p {
-    @apply text-gray-600 text-lg max-w-3xl mx-auto;
+    @apply text-lg max-w-3xl mx-auto;
+  }
+
+  .soft-orange-bg {
+    background-color: #FEC6A1;
   }
 }
 
