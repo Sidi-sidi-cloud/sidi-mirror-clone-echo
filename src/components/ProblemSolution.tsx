@@ -17,7 +17,7 @@ const ProblemSolution = () => {
       <div className="container-custom">
         <div className="section-header">
           <h2 className="text-secondary">The Future is in Space</h2>
-          <p className="text-2xl">The space market is worth trillions, but traditional companies don't know how to access it. Discovery One is the bridge between your company and the infinite opportunities of space.</p>
+          <p className="text-xl">The space market is worth trillions, but traditional companies don't know how to access it. Discovery One is the bridge between your company and the infinite opportunities of space.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
