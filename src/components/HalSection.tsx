@@ -3,7 +3,7 @@ const HalSection = () => {
   return <section id="hal" className="hal-section">
       <div className="container-custom">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">HAL 2001: Your AI Assistant for Space Conquest</h2>
+          <h2 className="text-3xl font-bold mb-6 md:text-4xl">HAL 2001: Your AI Assistant for Space Conquest</h2>
           <p className="opacity-90 mb-8 text-xl mx-[48px]">HAL 2001 is not a simple assistant, but a strategic coordinator that connects your company with our team, orchestrating specialized AI agents and ensuring efficient communication throughout the entire process.</p>
           
           <div className="bg-white/10 p-6 rounded-xl max-w-3xl mx-auto">
