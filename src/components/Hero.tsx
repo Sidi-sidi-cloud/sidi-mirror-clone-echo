@@ -9,7 +9,7 @@ const Hero = () => {
           
           <h1>Discovery One</h1>
           <h2>Service Platform for Space Market Penetration</h2>
-          <p className="py-0 mx-[122px]">Transforming companies into protagonists of the space economy, regardless of their sector or size.</p>
+          <p className="py-0 mx-0">Transforming companies into protagonists of the space economy, regardless of their sector or size.</p>
           
           <div className="flex flex-wrap justify-center gap-4 py-[19px]">
             <a href="#services" className="btn-primary">Start Your Space Journey</a>
