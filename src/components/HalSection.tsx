@@ -7,7 +7,7 @@ const HalSection = () => {
           <p className="opacity-90 mb-8 text-xl mx-[48px]">HAL 2001 is not a simple assistant, but a strategic coordinator that connects your company with our team, orchestrating specialized AI agents and ensuring efficient communication throughout the entire process.</p>
           
           <div className="bg-white/10 p-6 rounded-xl max-w-3xl mx-auto">
-            <h4 className="font-semibold mb-4 text-2xl text-left my-0 py-[17px]">HAL is always ready to answer all your questions, from the most basic and straightforward to the most complex and specialized:</h4>
+            <h4 className="font-semibold mb-4 text-2xl text-left my-0 py-[17px]">HAL is always ready to answer your questions, from the most basic and straightforward to the most complex and specialized:</h4>
             
             <div className="mb-4">
               <div className="p-4 rounded-xl max-w-[80%] mx-auto text-white bg-orange-600">
