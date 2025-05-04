@@ -37,8 +37,8 @@ const FAQ = () => {
           </Accordion>
           
           <div className="text-center mt-16 mb-8">
-            <p className="text-xl mb-8">Have more questions? HAL 2001 is always at your disposal</p>
-            <a href="#" className="btn-primary">Talk to HAL 2001</a>
+            <p className="text-xl mb-8 my-[55px]">Have more questions? HAL 2001 is always at your disposal</p>
+            <a href="#" className="btn-primary py-[30px] px-[40px] my-[7px]">Talk to HAL 2001</a>
           </div>
         </div>
       </div>
