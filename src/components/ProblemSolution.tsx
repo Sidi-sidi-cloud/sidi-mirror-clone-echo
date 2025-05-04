@@ -1,6 +1,4 @@
-
 import { Card, CardContent } from "./ui/card";
-
 const features = [{
   title: "Efficiency",
   description: "Concrete results thanks to HAL 2001's artificial intelligence, which optimizes every phase of the journey, reducing time and costs.",
@@ -14,13 +12,12 @@ const features = [{
   description: "No space experience required. Our guided journey takes you step by step into the most promising market of the future.",
   image: "/lovable-uploads/3db0b114-873d-436e-8032-096850270dfe.png"
 }];
-
 const ProblemSolution = () => {
   return <section id="problem-solution" className="section bg-white">
       <div className="container-custom">
         <div className="section-header">
           <h2 className="text-secondary">The Future is in Space</h2>
-          <p>The space market is worth trillions, but traditional companies don't know how to access it. Discovery One is the bridge between your company and the infinite opportunities of space.</p>
+          <p className="text-2xl">The space market is worth trillions, but traditional companies don't know how to access it. Discovery One is the bridge between your company and the infinite opportunities of space.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -37,5 +34,4 @@ const ProblemSolution = () => {
       </div>
     </section>;
 };
-
 export default ProblemSolution;

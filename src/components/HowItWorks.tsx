@@ -27,7 +27,7 @@ const HowItWorks = () => {
       <div className="container-custom">
         <div className="section-header">
           <h2 className="text-secondary">How Discovery One Works</h2>
-          <p>A structured 5-step journey designed to transform your expertise into space opportunities</p>
+          <p className="text-xl">A structured 5-step journey designed to transform your expertise into space opportunities</p>
         </div>
         
         {isMobile ?
