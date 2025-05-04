@@ -1,3 +1,4 @@
+
 import { Button } from "./ui/button";
 const Hero = () => {
   return <section className="hero">
@@ -9,7 +10,7 @@ const Hero = () => {
           
           <h1>Discovery One</h1>
           <h2>Service Platform for Space Market Penetration</h2>
-          <p className="py-0 mx-0"></p>
+          <p className="py-2 mx-auto max-w-xl">Transforming companies into protagonists of the space economy, regardless of their sector or size.</p>
           
           <div className="flex flex-wrap justify-center gap-4 py-[19px] px-0 mx-0 my-[90px]">
             <a href="#services" className="btn-primary">Start Your Space Journey</a>

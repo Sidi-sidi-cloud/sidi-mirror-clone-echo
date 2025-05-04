@@ -85,12 +85,12 @@ const HowItWorks = () => {
                   </div>
                 ))}
 
-                {/* Separate arrows layer that overlays on top of the circles */}
+                {/* Separate arrows layer that overlays on top of the circles - now perfectly centered */}
                 {[0, 1, 2, 3].map((index) => (
                   <div 
                     key={`arrow-${index}`} 
                     className="absolute flex items-center justify-center"
-                    style={{ left: `calc(${index * 20 + 16.5}%)`, width: "7%", top: "12px", height: "24px" }}
+                    style={{ left: `calc(${index * 20 + 16.5}%)`, width: "7%", top: "12px", height: "24px", transform: "translateY(12px)" }}
                   >
                     <ArrowRight className="w-10 h-10 text-primary" />
                   </div>
