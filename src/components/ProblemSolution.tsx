@@ -1,17 +1,20 @@
+
 import { Card, CardContent } from "./ui/card";
+
 const features = [{
   title: "Efficiency",
   description: "Concrete results thanks to HAL 2001's artificial intelligence, which optimizes every phase of the journey, reducing time and costs.",
-  image: "/lovable-uploads/84eb81b2-5311-4475-86ac-f1d5684484ec.png"
+  image: "/lovable-uploads/3a4ec2ee-d5c1-4083-8c0f-818d15c4c608.png"
 }, {
   title: "Strategic Transformation",
   description: "We convert your existing skills into strategic assets for the space market, creating dual-use business models with both terrestrial and space value.",
-  image: "/lovable-uploads/dc80da50-41df-462a-b56a-17f758d4b2a5.png"
+  image: "/lovable-uploads/d7de8284-5310-455f-aed0-dca8d81c6094.png"
 }, {
   title: "Accessibility",
   description: "No space experience required. Our guided journey takes you step by step into the most promising market of the future.",
-  image: "/lovable-uploads/4148ee6c-e552-41c6-8e07-aedb49457fab.png"
+  image: "/lovable-uploads/3db0b114-873d-436e-8032-096850270dfe.png"
 }];
+
 const ProblemSolution = () => {
   return <section id="problem-solution" className="section bg-white">
       <div className="container-custom">
@@ -24,7 +27,7 @@ const ProblemSolution = () => {
           {features.map((feature, index) => <Card key={index} className="feature-card border-0 overflow-hidden hover:shadow-lg">
               <CardContent className="p-6">
                 <div className="mb-6">
-                  <img src={feature.image} alt={feature.title} className="w-20 h-20 rounded-full mx-auto object-contain" />
+                  <img src={feature.image} alt={feature.title} className="w-20 h-20 mx-auto object-contain" />
                 </div>
                 <h3 className="text-xl font-semibold text-secondary mb-2 text-center">{feature.title}</h3>
                 <p className="text-gray-600 text-center">{feature.description}</p>
@@ -34,4 +37,5 @@ const ProblemSolution = () => {
       </div>
     </section>;
 };
+
 export default ProblemSolution;
