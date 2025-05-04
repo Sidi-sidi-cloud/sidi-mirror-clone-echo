@@ -74,7 +74,7 @@ const HowItWorks = () => {
               top: "12px",
               height: "24px",
               transform: "translateY(12px)"
-            }} className="absolute flex items-center justify-center my-[29px]">
+            }} className="absolute flex items-center justify-center py-0 my-[29px]">
                     <ArrowRight className="w-10 h-10 text-primary" />
                   </div>)}
               </div>
