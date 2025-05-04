@@ -1,3 +1,4 @@
+
 import { Card } from "./ui/card";
 
 const stories = [
@@ -14,7 +15,7 @@ const stories = [
   {
     title: "Computer Vision Software for Satellites",
     description: "A software startup adapted its computer vision algorithms for Earth monitoring from space, securing €2 million in funding and partnerships with space agencies.",
-    image: "/lovable-uploads/73aec1dc-3086-4049-b46c-c432d5d72bc0.png", // Corrected path by removing "public"
+    image: "/lovable-uploads/b5e3c5ca-0e17-4fc7-b6c2-01c4da7e8876.png", // Updated with new satellite imagery
     client: {
       name: "Laura Bianchi",
       position: "CTO, SpaceVision",
