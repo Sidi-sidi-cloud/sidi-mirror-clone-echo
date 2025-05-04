@@ -55,7 +55,7 @@ const HowItWorks = () => {
                 {steps.map((step, index) => <div key={step.number} className="flex flex-col items-center">
                     {/* Top row: Discs with numbers */}
                     <div className="flex items-center mb-8">
-                      <div className="w-24 h-24 rounded-full bg-primary flex items-center justify-center text-white font-bold text-4xl">
+                      <div className="w-24 h-24 rounded-full bg-primary flex items-center justify-center text-white font-bold text-4xl px-0 mx-0 my-[12px]">
                         {step.number}
                       </div>
                     </div>
