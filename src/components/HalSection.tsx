@@ -1,16 +1,13 @@
-
 import { Avatar } from "@/components/ui/avatar";
-
 const HalSection = () => {
-  return (
-    <section id="hal" className="hal-section">
+  return <section id="hal" className="hal-section">
       <div className="container-custom">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">HAL 2001: Your AI Assistant for Space Conquest</h2>
           <p className="text-lg opacity-90 mb-8">HAL 2001 is not a simple assistant, but a strategic coordinator that connects your company with our team, orchestrating specialized AI agents and ensuring efficient communication throughout the entire process.</p>
           
           <div className="bg-white/10 p-6 rounded-xl max-w-3xl mx-auto">
-            <h4 className="text-xl font-semibold mb-4">HAL 2001 is waiting for your specific questions:</h4>
+            <h4 className="font-semibold mb-4 text-2xl text-left my-0 py-[17px]">HAL is always ready to answer all your questions, from the most basic and straightforward to the most complex and specialized:</h4>
             
             <div className="mb-4">
               <div className="bg-gray-600/70 p-4 rounded-xl max-w-[80%] mx-auto text-white">
@@ -44,8 +41,6 @@ const HalSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HalSection;
