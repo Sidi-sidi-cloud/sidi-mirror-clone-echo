@@ -1,7 +1,14 @@
 
 import { Button } from "./ui/button";
+
 const Hero = () => {
-  return <section className="hero">
+  return (
+    <section 
+      className="hero relative min-h-screen flex items-center bg-cover bg-center text-white" 
+      style={{
+        backgroundImage: "linear-gradient(rgba(26, 26, 46, 0.5), rgba(26, 26, 46, 0.7)), url('/lovable-uploads/4bd85052-7194-491e-9b96-794583139e8b.png')"
+      }}
+    >
       <div className="container-custom">
         <div className="hero-content">
           <div className="hero-logo mb-8">
@@ -22,6 +29,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;
