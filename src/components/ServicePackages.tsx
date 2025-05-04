@@ -68,7 +68,7 @@ const ServiceCard = ({
         <div className="text-2xl font-bold">{service.price}</div>
       </div>
       
-      <div className="p-6 flex flex-col flex-grow">
+      <div className="p-6 flex flex-col flex-grow rounded-none">
         <p className="text-gray-600 mb-6">{service.description}</p>
         
         <ul className="mb-8 flex-grow">
